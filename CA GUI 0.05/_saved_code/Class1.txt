@@ -1,0 +1,21 @@
+﻿		private void DisplayFieldAsRichText( string fieldAsString )
+		{
+			Color savedColor = richTextBoxField.SelectionBackColor;
+			richTextBoxField.Clear();
+
+			for ( int i=0; i<fieldAsString.Length; i++)
+			{
+				char c = fieldAsString[i];
+
+				if (c == '1')
+					richTextBoxField.SelectionBackColor = Color.Pink;
+				else if (c == '2')
+					richTextBoxField.SelectionBackColor = Color.SkyBlue;
+				else if (c == '\r')
+					continue;
+				else
+					richTextBoxField.SelectionBackColor = savedColor;
+				richTextBoxField.AppendText(c.ToString());
+								
+			}
+		}

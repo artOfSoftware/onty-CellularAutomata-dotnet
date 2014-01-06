@@ -1,0 +1,6 @@
+Notes:
+
+Anything that ends in '(' is a function invocation. We can look ahead to ')'. Everything inbetween are args.
+
+Anything that begins with '(' and ends with ')' is a vector.  Between parentheses is the vector config.
+

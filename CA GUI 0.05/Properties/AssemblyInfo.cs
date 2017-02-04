@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("-title-")]
-[assembly: AssemblyDescription("-descr-")]
+[assembly: AssemblyTitle("Toom.CellularAutomata.GUI")]
+[assembly: AssemblyDescription("An implementation of Cellular Automata.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("-company-")]
+[assembly: AssemblyCompany("onTy Toom")]
 [assembly: AssemblyProduct("Cellular Automata")]
 [assembly: AssemblyCopyright("Copyright ©  2013 Toom")]
-[assembly: AssemblyTrademark("-trademark-")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

@@ -113,7 +113,7 @@ namespace Toom.CellularAutomata.Model
 				data[5, 25] = 1;
 				data[6, 25] = 2;
 			}
-			catch ( Exception ex)
+			catch ( Exception )
 			{ }
 		}
 

@@ -1,4 +1,4 @@
-This is a simple implementation of (Finite Cellular Automata)[https://en.wikipedia.org/wiki/Cellular_automaton] using C#.
+This is a simple implementation of [Finite Cellular Automata](https://en.wikipedia.org/wiki/Cellular_automaton) using C#.
 
 The algorithms implemented include:
 1. Conway's Game of Life
